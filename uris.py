@@ -62,10 +62,6 @@ if __name__ == "__main__":
             info = wikipedia.summary(person, 1)
             print(info)
             talk(info)
-        elif 'date' in query:
-            talk('sorry, I have a headache')
-        elif 'are you single' in query:
-            talk('I am in a relationship with wifi')
         elif 'joke' in query:
             talk(pyjokes.get_joke())
         elif 'open google' in query:
